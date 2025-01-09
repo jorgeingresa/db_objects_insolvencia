@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-container
+    volumes:
+      - .:/app
+    environment:
+      - LD_LIBRARY_PATH=/opt/oracle/instantclient_21_9
