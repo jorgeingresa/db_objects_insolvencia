@@ -1,0 +1,51 @@
+# Archivos de entorno
+.env
+
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de paquetes y dependencias
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Archivos de logs
+*.log
+*.out
+*.err
+
+# Configuración del entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de Docker
+*.tar
+*.img
+
+# Archivos de configuración de IDEs/editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+*.old
+
+# Archivos generados por Docker Compose
+docker-compose.override.yml
+
+# Otros archivos no deseados
+*.~undo-tree
+*.orig
